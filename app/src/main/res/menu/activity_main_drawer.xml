@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_algebra"
+            android:title="Алгебра" />
+        <item
+            android:id="@+id/nav_graphs"
+            android:title="Графы" />
+        <item
+            android:id="@+id/nav_geometry"
+            android:title="Геометрия" />
+        <item
+            android:id="@+id/nav_strings"
+            android:title="Строки" />
+        <item
+            android:id="@+id/nav_sequences"
+            android:title="Последовательности" />
+        <item
+            android:id="@+id/nav_dynamics"
+            android:title="Динамика" />
+        <item
+            android:id="@+id/nav_linear_algebra"
+            android:title="Линейная алгебра" />
+        <item
+            android:id="@+id/nav_numerical_methods"
+            android:title="Численные методы" />
+        <item
+            android:id="@+id/nav_combinatorics"
+            android:title="Комбинаторика" />
+        <item
+            android:id="@+id/nav_game_theory"
+            android:title="Теория игр" />
+        <item
+            android:id="@+id/nav_schedules"
+            android:title="Расписания" />
+        <item
+            android:id="@+id/nav_others"
+            android:title="Другие" />
+    </group>
+
+</menu>
